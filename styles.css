@@ -10,6 +10,17 @@
     width: 500px;
     margin-top: 20px; /* Espaçamento adicional no topo */
   }
+
+
+  .pequena {
+    position: center;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 230px;
+  }
+
   
   .bg-beige {
     background-color: rgb(211, 173, 91);
@@ -17,7 +28,16 @@
 
 body.login {
   background-color: beige; /* Cor de fundo mais clara */
-  position: relative;
+  background-image: url('logo.png');
+  background-size: 20%; /* Tamanho do background */
+  background-position: center top; /* Posição centrada no topo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  height: 100vh; /* Define a altura da página para a altura da janela do navegador */
+  margin: 0; /* Remove margens padrão */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .btn-back {
@@ -49,10 +69,11 @@ body.login {
   margin-top: 50px; /* Margem superior para centralizar na página */
 }
 
-h2 {
+h2{
   color: rgb(211, 173, 91); /* Cor RGB(211, 173, 91) para o título */
   text-align: center; /* Centralizar o título */
   margin-bottom: 30px; /* Espaço inferior para separar do formulário */
+  font-family: Candara, sans-serif;
 }
 
 label.login {
