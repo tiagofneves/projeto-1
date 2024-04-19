@@ -6,10 +6,7 @@
     text-align: center;
   }
   
-  .image-container img {
-    width: 500px;
-    margin-top: 20px; /* Espaçamento adicional no topo */
-  }
+
 
 
   .pequena {
@@ -27,79 +24,126 @@
 }
 
 body.login {
-  background-color: beige; /* Cor de fundo mais clara */
+  background-color: beige;
   background-image: url('logo.png');
-  background-size: 20%; /* Tamanho do background */
-  background-position: center top; /* Posição centrada no topo */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
-  height: 100vh; /* Define a altura da página para a altura da janela do navegador */
-  margin: 0; /* Remove margens padrão */
+  background-size: 20%; 
+  background-position: center top;
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  
+}
+
+body.about {
+  background-color: beige; 
+  background-image: url('logo.png');
+  background-size: 20%; 
+  background-position: center top; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  margin: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  
 }
 
 .btn-back {
   position: absolute;
-  top: 10px; /* Ajuste para mover mais para cima */
+  top: 10px; 
   left: 20px;
-  background-color: rgb(211, 173, 91);; /* Cor azul padrão do Bootstrap */
-  border-color: rgb(211, 173, 91);; /* Cor da borda igual à cor de fundo */
+  background-color: rgb(211, 173, 91);;
+  border-color: rgb(211, 173, 91);;
 }
 
 .btn-back:hover {
-  background-color: rgb(210, 153, 30);; /* Cor azul mais escura ao passar o mouse */
-  border-color: rgb(210, 153, 30);; /* Cor da borda igual à cor de fundo ao passar o mouse */
+  background-color: rgb(210, 153, 30);;
+  border-color: rgb(210, 153, 30);; 
 }
 
 .btn-primary {
-  background-color: rgb(211, 173, 91);; /* Cor azul padrão do Bootstrap */
-  border-color: rgb(211, 173, 91);; /* Cor da borda igual à cor de fundo */
+  background-color: rgb(211, 173, 91);; 
+  border-color: rgb(211, 173, 91);; 
 }
 
+
 .btn-primary:hover {
-  background-color: rgb(210, 153, 30);; /* Cor azul mais escura ao passar o mouse */
-  border-color: rgb(210, 153, 30);; /* Cor da borda igual à cor de fundo ao passar o mouse */
+  background-color: rgb(210, 153, 30);;
+  border-color: rgb(210, 153, 30);; 
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.725) !important; 
 }
 
 
 .container {
-  max-width: 400px; /* Largura máxima do container para melhor legibilidade */
-  margin-top: 50px; /* Margem superior para centralizar na página */
+  max-width: 400%; 
+  margin-top: 20px; 
+  margin-left: 50px;
+}
+
+.container2 {
+  max-width: 400%; 
+  margin-top: 20px; 
+  margin: 20px auto;
+  justify-content: center;
 }
 
 h2{
-  color: rgb(211, 173, 91); /* Cor RGB(211, 173, 91) para o título */
-  text-align: center; /* Centralizar o título */
-  margin-bottom: 30px; /* Espaço inferior para separar do formulário */
+  color: rgb(211, 173, 91); 
+
+  margin-bottom: 30px; 
   font-family: Candara, sans-serif;
+  margin-top: 80px;
+}
+
+h3{
+  color: rgb(211, 173, 91); 
+  margin-left: 60px;
+ font-size: 35px;
+  margin-bottom: 30px; 
+  font-family: Candara, sans-serif;
+  margin-top: 80px;
+}
+
+h1{
+  
+  text-align: center; 
+  margin-bottom: 30px; 
+  font-family: Candara, sans-serif;
+  font-size: 1.5rem;
 }
 
 label.login {
-  font-weight: bold; /* Texto do label em negrito */
+  font-weight: bold; 
 }
 
 form.login {
-  background-color: #ffffff; /* Fundo branco para o formulário */
-  padding: 20px; /* Espaçamento interno */
-  border-radius: 10px; /* Cantos arredondados */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 button[type="submit"] {
-  width: 100%; /* Botão de largura total */
-  background-color: rgb(211, 173, 91); /* Cor RGB(211, 173, 91) para o botão */
-  border-color: rgb(211, 173, 91); /* Cor da borda igual à cor do botão */
+  width: 100%; 
+  background-color: rgb(211, 173, 91); 
+  border-color: rgb(211, 173, 91);
 }
 
 .mt-3 {
-  text-align: center; /* Centralizar o texto */
+  text-align: center; 
 }
 
 
 body {
-  background-color: beige; /* Cor de fundo bege */
+  background-color: beige; 
 }
 
 .image-container {
@@ -127,4 +171,96 @@ body {
   font-family: Georgia, serif;
   font-size: 21px;
   color: rgb(137, 97, 16);
+}
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 35px;
+  margin: 16px;
+  display: inline-block;
+  width: 300;
+  text-align: center;
+  cursor: pointer;
+
+  img {
+    width: 150px;
+  margin-bottom: 8px;
+  align-items: center;
+  }
+}
+
+
+
+
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+#popup-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.cross {
+  width: 20px; 
+  height: 20px; 
+  border: 1px solid black; 
+  position: absolute; 
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  cursor: pointer; 
+}
+
+.terms-link {
+  color: blue; 
+  text-decoration: underline; 
+  cursor: pointer; 
+}
+
+.square {
+  width: 20px;
+  height: 20px; 
+  border: 1px solid black; 
+  position: absolute; 
+  left: -25px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  cursor: pointer; 
+}
+
+table {
+  width: 95%;
+  border-collapse: separate;
+  margin-left: 50px;
+  background-color: #f6d70a00;
+}
+th, td {
+  margin-left: 50px;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid rgb(197, 155, 64);;
+  color: rgb(136, 90, 4);
+}
+th {
+  background-color: rgb(211, 173, 91); 
+  margin-left: 50px;
 }

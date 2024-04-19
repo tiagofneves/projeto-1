@@ -1,0 +1,37 @@
+{
+    "empresarios": [
+        {
+            "nome": "Bill Gates",
+            "imagem": "https://exemplo.com/imagem1.jpg",
+            "idade": 68,
+            "patrimonio": "50 bilhões",
+            "empresa": "Empresario",
+            "nacionalidade": "Estados Unidos"
+        },
+        {
+            "nome": "Mark Zuckerberg",
+            "imagem": "Mark.jpg",
+            "idade": 55,
+            "patrimonio": "45 bilhões",
+            "empresa": "Empresario",
+            "nacionalidade": "Estdos Unidos"
+        },
+        {
+            "nome": "CR7",
+            "imagem": "CR7.webp",
+            "idade": 39,
+            "patrimonio": "35 bilhões",
+            "empresa": "Jogador de futebol e empresário",
+            "nacionalidade": "Portugal"
+        },
+        {
+            "nome": "McGregor",
+            "imagem": "McGregor.png",
+            "idade": 48,
+            "patrimonio": "35 bilhões",
+            "empresa": "Lutador de UFC",
+            "nacionalidade": "Irlanda"
+        }
+       
+    ]
+}
